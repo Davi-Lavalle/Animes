@@ -1,0 +1,79 @@
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: var(--soft-white);
+    color: var(--gray);
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  var( --card);
+
+}
+
+.card  h3{
+    text-align: center;
+    
+}
+
+.card .animeT{
+    background-color: var(--primary);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+
+}
+
+.card  img{
+    width: 100%;
+}
+
+.card_footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botao1{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    background-color: var( --terceary);
+    color: var(--white);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.botao2{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--secondary);
+    color: var(--white);
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.botao1:hover{
+    background-color: var(--primary);
+    transition: all .5s;
+}
+
+.botao2:hover{
+    background-color: var(--primary);
+    transition: all .5s;
+}

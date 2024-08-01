@@ -1,0 +1,44 @@
+.Informacao{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Informacao h1{
+    font-size: 2em;
+    padding-bottom: 2%;
+    color: var(--primary);
+}
+
+.Informacao h2{
+    padding-bottom: 2%;
+    font-size: 1em;
+}
+
+.Informacao .sinopse{
+    padding-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: var(--primary);
+    border-radius: 8px;
+    font-size: 1.5em;
+}
+
+.Informacao div{
+    margin-bottom: 2%;
+}
+
+.Informacao .criador{
+    padding-bottom: 2%;
+    background-color: var(--primary);
+    border-radius: 8px;
+    font-size: 1.5em;
+    width: 35%;
+
+}
+
+.Informacao img{
+    width: 200px;
+    padding-bottom: 2%;
+}

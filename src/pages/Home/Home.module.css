@@ -1,0 +1,19 @@
+.home h2{
+    text-align: center;
+    color: var(--primary);
+}
+
+.home p{
+    color: var(--primary);
+}
+
+.lista{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-block: 1rem;
+}
+
